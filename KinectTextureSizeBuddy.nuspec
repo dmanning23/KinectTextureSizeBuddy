@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>KinectTextureSizeBuddy</id>
+		<version>1.0.0</version>
+		<title>KinectTextureSizeBuddy</title>
+		<authors>dmanning23</authors>
+		<owners>dmanning23</owners>
+		<projectUrl>https://github.com/dmanning23/KinectTextureSizeBuddy</projectUrl>
+		<licenseUrl>https://github.com/dmanning23/KinectTextureSizeBuddy/blob/master/LICENSE.txt</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Thing that takes a kinect image format and returns the width/height of the image stream. Hard to believe this is missing from kinect.dll :P</description>
+		<releaseNotes />
+		<copyright>Copyright 2016</copyright>
+		<tags>pcl, windows phone, winphone, android, ios, windows universal, monogame</tags>
+		<dependencies>
+
+			<group targetFramework="net451">
+				<dependency id="MonoGame.Framework.DesktopGL" version="3.5"/>
+			</group>
+
+		</dependencies>
+	</metadata>
+	<files>
+
+		<!--DesktopGL-->
+		<file src="Windows\bin\Release\KinectTextureSizeBuddy.pdb" target="lib\net451\KinectTextureSizeBuddy.pdb" />
+		<file src="Windows\bin\Release\KinectTextureSizeBuddy.dll" target="lib\net451\KinectTextureSizeBuddy.dll" />
+
+	</files>
+</package>
