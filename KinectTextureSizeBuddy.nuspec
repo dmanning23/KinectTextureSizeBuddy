@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
 	<metadata>
 		<id>KinectTextureSizeBuddy</id>
-		<version>1.0.0</version>
+		<version>1.0.1</version>
 		<title>KinectTextureSizeBuddy</title>
 		<authors>dmanning23</authors>
 		<owners>dmanning23</owners>
@@ -16,14 +16,14 @@
 		<dependencies>
 
 			<group targetFramework="net451">
-				<dependency id="MonoGame.Framework.DesktopGL" version="3.5"/>
+				<dependency id="MonoGame.Framework.WindowsDX" version="3.5"/>
 			</group>
 
 		</dependencies>
 	</metadata>
 	<files>
 
-		<!--DesktopGL-->
+		<!--WindowsDX-->
 		<file src="Windows\bin\Release\KinectTextureSizeBuddy.pdb" target="lib\net451\KinectTextureSizeBuddy.pdb" />
 		<file src="Windows\bin\Release\KinectTextureSizeBuddy.dll" target="lib\net451\KinectTextureSizeBuddy.dll" />
 
